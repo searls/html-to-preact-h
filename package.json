@@ -1,6 +1,6 @@
 {
   "name": "html-to-preact-h",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts an HTML string to a string of preact h() calls",
   "main": "index.js",
   "bin": "cli.js",
