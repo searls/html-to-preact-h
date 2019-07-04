@@ -2,7 +2,7 @@
 
 Generates a string of [preact](https://preactjs.com) `h()` function calls for a
 given HTML string. Designed to make it easier to embed snippets of markup
-(notably generated SVG files) into JavaScript source listing that use `h()`
+(notably generated SVG files) into JavaScript source listings that use `h()`
 to render markup (as opposed to JSX).
 
 ## Install
