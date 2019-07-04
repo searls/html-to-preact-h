@@ -5,6 +5,12 @@ given HTML string. Designed to make it easier to embed snippets of markup
 (notably generated SVG files) into JavaScript source listing that use `h()`
 to render markup (as opposed to JSX).
 
+## Install
+
+```
+npm install html-to-preact-h
+```
+
 ## API
 
 ```js
