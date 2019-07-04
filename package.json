@@ -1,0 +1,29 @@
+{
+  "name": "html-to-preact-h",
+  "version": "1.0.0",
+  "description": "Converts an HTML string to a string of preact h() calls",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "teenytest && standard --fix"
+  },
+  "keywords": [
+    "preact"
+  ],
+  "author": "Justin Searls <searls@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parse5": "^5.1.0",
+    "parse5-htmlparser2-tree-adapter": "^5.1.0",
+    "stringify-object": "^3.3.0"
+  },
+  "devDependencies": {
+    "ought": "0.0.6",
+    "standard": "^12.0.1",
+    "teenytest": "^5.2.0",
+    "theredoc": "^1.0.0"
+  },
+  "teenytest": {
+    "testLocator": "index.test.js"
+  }
+}
