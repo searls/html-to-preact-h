@@ -1,6 +1,6 @@
 # html-to-preact-h
 
-Generates a string of [preact](https://preactjs.com) `h()` function calls for a
+Generates a string of [preact](https://preactjs.com) hyperscript `h()` function calls for a
 given HTML string. Designed to make it easier to embed snippets of markup
 (notably generated SVG files) into JavaScript source listings that use `h()`
 to render markup (as opposed to JSX).
